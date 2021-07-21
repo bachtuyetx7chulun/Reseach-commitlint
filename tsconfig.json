@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",                         
+    "module": "commonjs",                    
+    "strict": true,                          
+    "baseUrl": "./",                         
+    "esModuleInterop": true,                 
+    "skipLibCheck": true,                    
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@configs/*": ["app/configs/*"],
+      "@constants/*": ["app/constants/*"],
+      "@services/*": ["app/services/*"],
+    }
+  },
+  "include": ["app/**/*.ts"],
+  "exclude": ["node_modules"]
+}
+
+
+
