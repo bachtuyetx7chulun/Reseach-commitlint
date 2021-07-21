@@ -12,7 +12,8 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "release": "standard-version"
+    "release": "standard-version",
+    "lint-staged": "lint-staged"
   },
   "lint-staged": {
     "*.ts": [
